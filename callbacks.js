@@ -14,8 +14,9 @@ const blogPost = [
 function getPost(){
   setTimeout(()=>{
     let output = '';
-    blogPost.forEach((post)=>{
-      
+    blogPost.forEach((post, index)=>{
+      output += `<li>${post.title}</li>`;
     })
+    document.body.innerHTML = output;
   }, 1000)
 }

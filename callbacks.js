@@ -9,4 +9,4 @@ const blogPost = [
     title: "Post Two",
     body: "This is post two"
   }
-]
+];

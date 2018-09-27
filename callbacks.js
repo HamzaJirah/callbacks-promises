@@ -21,11 +21,11 @@ function getPost(){
   }, 1000)
 }
 
-function createPost (post){
+function createPost (post, callback){
   setTimeout(()=>{
     blogPost.push(post);
+    callback();
   }, 2000);
 }
-getPost();
 
-createPost({title: 'Post Three', body: 'This is post three'});
+createPost({title: 'Post Three', body: 'This is post three'}, getPost);

@@ -10,3 +10,9 @@ const blogPost = [
     body: "This is post two"
   }
 ];
+
+function getPost(){
+  setTimeout(()=>{
+
+  }, 1000)
+}

@@ -14,5 +14,8 @@ const blogPost = [
 function getPost(){
   setTimeout(()=>{
     let output = '';
+    blogPost.forEach((post)=>{
+      
+    })
   }, 1000)
 }

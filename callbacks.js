@@ -20,3 +20,4 @@ function getPost(){
     document.body.innerHTML = output;
   }, 1000)
 }
+getPost();

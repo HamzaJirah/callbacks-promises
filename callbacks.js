@@ -13,6 +13,6 @@ const blogPost = [
 
 function getPost(){
   setTimeout(()=>{
-
+    let output = '';
   }, 1000)
 }

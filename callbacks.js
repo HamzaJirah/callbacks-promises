@@ -20,4 +20,10 @@ function getPost(){
     document.body.innerHTML = output;
   }, 1000)
 }
+
+createPost (post){
+  setTimeout(()=>{
+    blogPost.push(post);
+  }, 2000);
+}
 getPost();

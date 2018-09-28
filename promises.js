@@ -51,6 +51,14 @@ function createPost (post){
 init();*/
 
 //ASYNC / AWAIT / FETCH
+async function fetchUsers(){
+  const res = await fetch 
+  ('https://jsonplaceholder.typicode.com/users');
+
+  const data = await res.json();
+
+  console.log(data);
+}
 
 //Promise.all
 /*const promise1 = Promise.resolve('Hello World');

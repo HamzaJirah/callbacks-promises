@@ -42,6 +42,9 @@ function createPost (post){
 .then(getPost)
 .catch(err => console.log(err));*/
 
+//ASYNC / AWAIT
+
+
 //Promise.all
 /*const promise1 = Promise.resolve('Hello World');
 const promise2 = 10;

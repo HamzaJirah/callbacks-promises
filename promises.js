@@ -61,6 +61,8 @@ async function fetchUsers(){
 }
 
 fetchUsers();
+
+
 //Promise.all
 /*const promise1 = Promise.resolve('Hello World');
 const promise2 = 10;

@@ -43,7 +43,9 @@ function createPost (post){
 .catch(err => console.log(err));*/
 
 //ASYNC / AWAIT
-
+async function init (){
+  createPost({title: 'Post Three', body: 'This is post three'})
+}
 
 //Promise.all
 /*const promise1 = Promise.resolve('Hello World');

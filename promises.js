@@ -22,7 +22,9 @@ function getPost(){
 }
 
 function createPost (post){
-  return new Promise();
+  return new Promise((resolve, reject)=>{
+    
+  });
   setTimeout(()=>{
     blogPost.push(post);
   }, 2000);

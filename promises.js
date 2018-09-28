@@ -26,7 +26,7 @@ function createPost (post){
     setTimeout(()=>{
       blogPost.push(post);
 
-      const error = false;
+      const error = true;
 
       if(!error){
         resolve();
@@ -38,4 +38,5 @@ function createPost (post){
   });
 }
 
-createPost({title: 'Post Three', body: 'This is post three'}).then(getPost);
+createPost({title: 'Post Three', body: 'This is post three'})
+.then(getPost);

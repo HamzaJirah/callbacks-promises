@@ -37,3 +37,5 @@ function createPost (post){
     }, 2000);
   });
 }
+
+createPost({title: 'Post Three', body: 'This is post three'});

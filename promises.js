@@ -43,3 +43,9 @@ function createPost (post){
 .catch(err => console.log(err));*/
 
 //Promise.all
+const promise1 = Promise.resolve('Hello World');
+const promise2 = 10;
+const promise3 = new Promise ((resolve, reject)=>
+setTimeout(resolve, 2000, 'Goodbye'));
+const promise4 = fetchApi 
+('https://jsonplaceholder.typicode.com/users').then(res=> res.json());

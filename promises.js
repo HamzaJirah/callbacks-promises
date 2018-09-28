@@ -25,6 +25,12 @@ function createPost (post){
   return new Promise((resolve, reject)=>{
     setTimeout(()=>{
       blogPost.push(post);
+
+      const error = false;
+
+      if(error){
+        resolve();
+      }
     }, 2000);
   });
 }

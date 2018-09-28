@@ -39,4 +39,5 @@ function createPost (post){
 }
 
 createPost({title: 'Post Three', body: 'This is post three'})
-.then(getPost);
+.then(getPost)
+.catch(err => console.log(err));

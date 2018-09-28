@@ -31,6 +31,9 @@ function createPost (post){
       if(error){
         resolve();
       }
+      else {
+        reject('ERROR: Something went wrong');
+      }
     }, 2000);
   });
 }

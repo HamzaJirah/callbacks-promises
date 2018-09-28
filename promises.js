@@ -26,7 +26,7 @@ function createPost (post){
     setTimeout(()=>{
       blogPost.push(post);
 
-      const error = true;
+      const error = false;
 
       if(!error){
         resolve();

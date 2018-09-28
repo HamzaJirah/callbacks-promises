@@ -43,12 +43,15 @@ function createPost (post){
 .catch(err => console.log(err));*/
 
 //ASYNC / AWAIT
-async function init (){
+/*async function init (){
   await createPost({title: 'Post Three', body: 'This is post three'})
 
   getPost();
 }
-init();
+init();*/
+
+//ASYNC / AWAIT / FETCH
+
 //Promise.all
 /*const promise1 = Promise.resolve('Hello World');
 const promise2 = 10;
